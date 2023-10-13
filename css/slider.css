@@ -1,0 +1,54 @@
+/*--------- slider ---------*/
+#carouselExampleControls {
+	position: relative;
+	width: 950px;
+	height: 516px;
+	margin: 0 auto;
+	padding: 0px 0px 0 0px;
+	z-index: 100;
+	background: #000;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.carousel-control-prev{
+	opacity: 1;
+	width: 0;
+}
+
+.carousel-control-prev-icon {
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 6px;
+	left: 428px;
+	z-index: 111;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.carousel-control-prev-icon:hover {
+	opacity: 0.5;
+}
+
+.carousel-control-next{
+	opacity: 1;
+	width: 0;
+}
+
+.carousel-control-next-icon {
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 6px;
+	right: 428px;
+	z-index: 111;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.carousel-control-next-icon:hover {
+	opacity: 0.5;
+}
